@@ -1,0 +1,80 @@
+.header{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  #092635;
+}
+.header h2{
+    background: linear-gradient(to right,#8f1ee6,#C21292,#ea3434,#FFA732);
+    color: transparent;
+    background-clip: text;
+}
+.container{
+    margin: 8px auto;
+    width: 430px;
+    height: 520px;
+    padding: 8px;
+    border-radius: 3px;
+    background: linear-gradient(150deg,rgb(248, 125, 248),#E7BCDE,#6DB9EF,#96EFFF);
+}
+.container h3{
+    font-size: 15px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container label{
+    font-size: 12px;
+}
+.container input{
+    width: 100%;
+    margin: 8px auto;
+    padding: 3px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow:0px 0px 8px rgba(0,0,0,0.5);
+    
+}
+.container input:focus{
+    background: yellow;
+}
+.container select{
+    width: 50%;
+    padding: 3px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
+    
+}
+.container .actions{
+    margin: 10px auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.actions button{
+    margin: 10px;
+    padding: 8px 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.actions button:nth-child(odd){
+    background: #092635;
+    color: white;
+}
+.actions button:nth-child(even){
+    background: crimson;
+    color: white;
+}

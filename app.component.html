@@ -1,0 +1,33 @@
+<div class="header">
+  <h2>Template Driven Registration Form </h2>
+</div>
+<div class="container">
+  <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm.value)">
+    <h3>Teacher Registration Form</h3>
+    <label>Full Name</label>
+    <input type="text" placeholder="" name="fullName" ngModel>
+    <label>Email Address</label>
+    <input type="email" placeholder="" name="emailId" ngModel>
+    <label>Age</label>
+    <input type="number" placeholder="" name="ageYear" ngModel>
+    <label>Date Of Birth</label>
+    <input type="date" placeholder="" name="birthDate" ngModel>
+    <label>Technical Language Known</label>
+    <input type="text" placeholder="" name="language" ngModel>
+    <label >English Language</label>
+    <select>
+      <option>Select</option>
+      <option>Rear</option>
+      <option>Write</option>
+      <option>Speak</option>
+      <option>Understand</option>
+      <option>Very Good</option>
+      <option>Excellent</option>
+    </select>
+    <div class="actions">
+      <button type="submit">Register</button>
+      <button type="clear">Cancel</button>
+      
+    </div>
+  </form>
+</div>
